@@ -8,7 +8,7 @@ LOGIN_HTML = r"""<!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ورود · X4G</title>
+<title>Login</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
@@ -62,22 +62,22 @@ input:focus+.ic{color:var(--accent)}
     <div class="brand">
       <div><div class="brand-name">Armin</div><div class="brand-sub">v9.5</div></div>
     </div>
-    <h1>ورود به پنل</h1>
-    <p class="sub">رمز عبور را برای دسترسی به داشبورد وارد کنید</p>
+    <h1>panel log</h1>
+    <p class="sub">Enter PAss!</p>
     <div class="err" id="err"><i class="ti ti-alert-circle"></i><span id="err-text"></span></div>
     <div class="hint">
-      <span class="hint-label">رمز پیش‌فرض سیستم</span>
-      <span class="hint-val" onclick="document.getElementById('pw').value='X4GKING';document.getElementById('pw').focus()">X4GKING</span>
+      <span class="hint-label"> </span>
+      <span class="hint-val" onclick="document.getElementById('pw').value=' ';document.getElementById('pw').focus()"> </span>
     </div>
     <form id="form">
       <div class="field">
         <label>رمز عبور</label>
         <div class="inp-wrap">
-          <input type="password" id="pw" placeholder="رمز عبور را وارد کنید" autofocus required>
+          <input type="password" id="pw" placeholder="رمز pass" autofocus required>
           <i class="ti ti-lock ic"></i>
         </div>
       </div>
-      <button class="btn" type="submit" id="btn"><i class="ti ti-login-2"></i> ورود به داشبورد</button>
+      <button class="btn" type="submit" id="btn"><i class="ti ti-login-2"></i> login</button>
     </form>
     <div class="footer"> <a href="" target="_blank"><i class="ti ti-brand-telegram"></i> </a></div>
   </div>
@@ -94,7 +94,7 @@ document.getElementById('form').addEventListener('submit',async e=>{
     location.href='/dashboard';
   }catch(e){
     et.textContent=e.message;err.classList.add('show');
-    btn.disabled=false;btn.innerHTML='<i class="ti ti-login-2"></i> ورود به داشبورد';
+    btn.disabled=false;btn.innerHTML='<i class="ti ti-login-2"></i> loginد';
   }
 });
 </script>
@@ -105,7 +105,7 @@ DASHBOARD_HTML = r"""<!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>X4G</title>
+<title>panel</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
