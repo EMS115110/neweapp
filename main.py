@@ -408,7 +408,7 @@ async def ensure_default_link():
 # ── Basic endpoints ───────────────────────────────────────────────────────────
 @app.get("/")
 async def root():
-    return {"service": "X4G", "version": "9.5", "status": "active", "channel": "Beta Canary"}
+    return {"service": "LinCanary T", "version": "9.5", "status": "active", "channel": "Beta Canary"}
 
 @app.get("/health")
 async def health():
