@@ -60,7 +60,7 @@ input:focus+.ic{color:var(--accent)}
 <div class="wrap">
   <div class="card">
     <div class="brand">
-      <div><div class="brand-name">Armin</div><div class="brand-sub">v9.5</div></div>
+      <div><div class="brand-name">ImnX Panel</div><div class="brand-sub">v4.3.9</div></div>
     </div>
     <h1>panel log</h1>
     <p class="sub">Enter PAss!</p>
@@ -2160,7 +2160,7 @@ html,body{{min-height:100%;background:var(--bg);font-family:var(--serif);color:v
 <div class="wrap">
   <div class="top">
     <div class="brand">
-      <div><div class="brand-name">Armin</div><div class="brand-sub">v9.5</div></div>
+      <div><div class="brand-name">ImnX Panel</div><div class="brand-sub">v4.3.8</div></div>
     </div>
     <div class="top-actions">
       <button class="icon-btn" id="theme-toggle" onclick="toggleTheme()" title="تغییر تم"><i class="ti ti-sun" id="theme-icon"></i></button>
@@ -2170,7 +2170,7 @@ html,body{{min-height:100%;background:var(--bg);font-family:var(--serif);color:v
   <div id="root">
     <div class="empty-state"><i class="ti ti-loader-2" style="animation:spin 1s linear infinite"></i>در حال بارگذاری...</div>
   </div>
-  <div class="footer">: <a href="" target="_blank"></a> · X4G v9.5</div>
+  <div class="footer">: <a href="" target="_blank"></a> · ImnX Panel v4.3.2</div>
 </div>
 <script>
 const UUID_KEY='{uuid_key}';
